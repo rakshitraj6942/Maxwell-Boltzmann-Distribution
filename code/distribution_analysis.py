@@ -7,7 +7,7 @@ T_gl = 300 ; m_gl = 4.65e-26
 k_B = 1.380649e-23  # Boltzmann Constant (J/K)
 
 # ---------- Velocities and Speed -------------
-velocity_comp = generate_velocities(N=100000, T=T, m=m)
+velocity_comp = generate_velocities(N=100000, T=T_gl, m=m_gl)
 speeds = compute_speeds(velocities=velocity_comp)
 
 
