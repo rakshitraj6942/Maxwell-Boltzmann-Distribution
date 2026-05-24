@@ -2,23 +2,29 @@ from velocity_simulation import generate_velocities, compute_speeds
 from matplotlib import pyplot as plt
 import numpy as np
 
-# Temperature and Mass (K and kg)
+# Constants (K and kg)
 T = 300 ; m = 4.65e-26
+k_B = 1.380649e-23  # Boltzmann Constant (J/K)
 
 # ---------- Velocities and Speed -------------
 velocity_comp = generate_velocities(N=10000, T=T, m=m)
 speeds = compute_speeds(velocities=velocity_comp)
 
-# _____ Histogram Plot _______
 
-def histogram_pdf(speeds: np.ndarray):
+def plots(speeds: np.ndarray):
     '''
     Plots normalized histogram for speeds such that it approximates a probability density function for v (f(v)).
     '''
     plt.figure(figsize=(10,5))
-    plt.hist(speeds, bins='fd', density=True)
+
+    plt.hist(speeds, bins='fd', density=True, alpha=0.7) # Histogram plot
     plt.xlabel('Speed')
     plt.ylabel('Probability Density')
+
+    # Theoretical Plot
+    v = np.linspace(0, max(speeds), 500)
+    f = 4*np.pi*(m/(2*np.pi*k_B*T))**(3/2)*(v**2)*np.exp(-m*v**2/(2*k_B*T))
+    plt.plot(v, f, color='red')
     plt.show()
 
-histogram_pdf(speeds)
+plots(speeds)

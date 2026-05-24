@@ -7,11 +7,11 @@ def generate_velocities(N, T: float , m: float):
     Returns N number of random velocity components (v_x, v_y, v_z) which follows Gaussian distributions consistent with thermal equilibrium.
 
     Consistency with thermal equilibrium means each velocity components follows a Gaussian distribution with mean 0 and variance equals to k_B*T/m.
-    sigma = k_B*T/m
+    sigma = sqrt(k_B*T/m)
 
     P(v_x) = sqrt(m/2pi*k_B*T)*exp(-mv_x^2/2k_B*T)
     '''
-    sigma = k_B*T/m
+    sigma = np.sqrt(k_B*T/m)
     
     v_x = np.random.normal(0, sigma, N)
     v_y = np.random.normal(0, sigma, N)
