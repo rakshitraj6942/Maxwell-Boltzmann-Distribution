@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.20)  29 MAY 2026 22:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.20)  31 MAY 2026 23:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -332,9 +332,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+  
+ []
 
 
-LaTeX Warning: Reference `lastpage' on page 1 undefined on input line 30.
+
+
+LaTeX Warning: Reference `lastpage' on page 1 undefined on input line 34.
 
 [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -361,19 +366,19 @@ Package rerunfilecheck Info: Checksums for `writeup.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 
-Package lastpage Warning: Rerun to get the references right on input line 30.
+Package lastpage Warning: Rerun to get the references right on input line 34.
 
  ) 
 Here is how much of TeX's memory you used:
  10320 strings out of 467800
  156511 string characters out of 5431882
- 564767 words of memory out of 5000000
+ 570767 words of memory out of 5000000
  38856 multiletter control sequences out of 15000+600000
  630543 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,6n,93p,366b,449s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,6n,93p,770b,449s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
-Output written on writeup.pdf (1 page, 94090 bytes).
+Output written on writeup.pdf (1 page, 97946 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream

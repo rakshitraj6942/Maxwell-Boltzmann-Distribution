@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1780073791.79759 "/Users/rakshitraj/dev/Scientific Python Projects/Project 2 - Maxwell Boltzman Velocity Distribution/report/writeup.tex" "writeup.pdf" "writeup" 1780073792.34068 2
-  "/Users/rakshitraj/dev/Scientific Python Projects/Project 2 - Maxwell Boltzman Velocity Distribution/report/writeup.tex" 1780073791.54206 787 5d471cab3a81eb7f63be194784a4b52f ""
+["pdflatex"] 1780251863.78918 "/Users/rakshitraj/dev/Scientific Python Projects/Project 2 - Maxwell Boltzman Velocity Distribution/report/writeup.tex" "writeup.pdf" "writeup" 1780251864.24327 2
+  "/Users/rakshitraj/dev/Scientific Python Projects/Project 2 - Maxwell Boltzman Velocity Distribution/report/writeup.tex" 1780251858.20634 2545 416c69cb279376f57ddbe82b8a82ac85 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1136768653 1536 05df9db6aeccc4eea94fec15c9024f79 ""
@@ -75,9 +75,9 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1755694185 3605822 ddda2cf1a22902e243c9fde9bea01190 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "jmlr2e.sty" 1780070245.89822 15579 5a0ee6278fd08b2d94d18018e791cb21 ""
-  "writeup.aux" 1780073792.28931 277 098c527316fe07095a8d14f2d1d9d7db "pdflatex"
-  "writeup.out" 1780073792.14827 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "writeup.tex" 1780073791.54206 787 5d471cab3a81eb7f63be194784a4b52f ""
+  "writeup.aux" 1780251864.20107 277 098c527316fe07095a8d14f2d1d9d7db "pdflatex"
+  "writeup.out" 1780251864.05896 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "writeup.tex" 1780251858.20634 2545 416c69cb279376f57ddbe82b8a82ac85 ""
   (generated)
   "writeup.aux"
   "writeup.log"
